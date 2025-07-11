@@ -178,3 +178,16 @@ body {
   padding: 0;
 }
 
+/* стилидля блока с кодом */
+pre {
+background-color: #f4f4f4;
+padding: 15px;
+border-radius: 5px;
+overflow-x: auto;/* горизонтальная прокрутка если код длинный */
+border: 1px solid #ddd;
+}
+
+code {
+font-family: 'Courier New', Courier, monospace;
+color: #333;
+}
