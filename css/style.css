@@ -100,6 +100,7 @@ body {
   font-size: 0.9em;
   opacity: 0.7; 
 }
+
 .sidebar-footer a {
   color: var(--sidebar-text);
 }
@@ -140,6 +141,7 @@ body {
   gap: 10px; /* расстояние между таблетками навыков */
   padding: 0;
 }
+
 .skills-list li {
   background-color: #eef2f5;
   padding: 8px 15px;
@@ -150,25 +152,30 @@ body {
 .job-item {
   margin-bottom: 30px;
 }
+
 .job-item:last-child {
   margin-bottom: 0;
 }
+
 .job-item h3 {
   margin-top: 0;
   margin-bottom: 5px;
   color: var(--heading-color);
   font-weight: 700;
 }
+
 .job-item .job-info {
   font-style: italic;
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 .job-item ul {
   padding-left: 20px;
   list-style-type: disc;
 }
+
 .job-item li {
   margin-bottom: 8px;
 }
